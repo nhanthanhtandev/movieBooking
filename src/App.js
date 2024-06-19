@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+import Booking from './Booking';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <DemoFunction />
+      <DemoClass></DemoClass> */}
+      {/* <ExHomePage />
+      <DemoStyleModule /> */}
+      {/* <DataBinding></DataBinding> */}
+      {/* <HandelingEven></HandelingEven> */}
+      {/* <DemoState></DemoState> */}
+      {/* <ExChangeColor></ExChangeColor> */}
+      {/* <RenderWithMap></RenderWithMap> */}
+      {/* <Demoprops></Demoprops> */}
+      {/* <ExChangeColor2></ExChangeColor2> */}
+      {/* <ExViewDetailPhone></ExViewDetailPhone> */}
+      {/* <ExPhoneCart></ExPhoneCart> */}
+      {/* <ExXucSac></ExXucSac> */}
+      {/* <DemoRedux></DemoRedux> */}
+      <Booking></Booking>
     </div>
   );
 }

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "fontGame";
+  src: url("./font-game.ttf");
+}
+.ex-game {
+  background: url("https://baitap-react-redux-gamexucxac.vercel.app/static/media/bgGame.e49605597dae0136a330.png?fbclid=IwZXh0bgNhZW0CMTAAAR0z3EmJsItRTqUoLPGgzdJQMcJBIm1YTye_jZzQ1_xejDCcyILT4gJoeck_aem_ARH1cBVPZK5V_WjFFXPEDLFDxk42xS17X49X2FES7ZEHjvF9LaPI6uShYHCTIq2fiQmo3YI1LVcAGpYIkUg2s5x8");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.ex-game .btn {
+  padding: 10px 30px;
+  font-size: 40px;
+}/*# sourceMappingURL=index.css.map */

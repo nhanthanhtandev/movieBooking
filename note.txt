@@ -1,0 +1,82 @@
+* Khởi tạo dự án : npx create-react-app . (tại folder tạo sẵn trước đó)
+
+* chạy dự án : npm start (đứng tại dự án => folder chứa file package.json)
+
+* node_modules : chứa source code của thư viện (axios,icon,....) / khi push lên git sẽ không được đính kèm vào source code
+
+
+npm i : sẽ vào package json khi mà package json như 1 cuốn sổ ghi chép các cấu hình và thư viện từng cài để nó tải lại toàn bộ các thư viện đó
+
+npm i axios : tải thư viện axios (ví dụ tải thư viện axios)
+
+xóa 1 thư viện nào đó : npm uninstall axios (ví dụ xóa thư viện axios)
+
+router: chia trang và cấu hình đường dẫn và dùng js để render ra các trang mình muốn đến
+
+gitignore:  liệt kê những thứ không đẩy lên server
+
+package-lock.json giống như 1 quyển ghi chép hành động
+
+đối với js 
+
+ctrl + tab : nhảy lại file gần nhất
+
+ctrl + p : tìm file 
+
+ctrl + shift + f : tìm kiếm từ khóa 
+
+
+component tương tự với funtion
+
+component đại diện cho 1 đoạn html trên layout
+
+Tạo Class component : rcc
+Tạo function component : rfc
+
+* React - Single Page Application SPA
+
+( 1 file html vừa là Home Page, Login, About,...)
+
+* React ~ Client side ( xử lý bên phía máy của user )
+
+
+---------------------
+
+* Data binding: đưa data lên layout / đưa js vào html , binding thông qua dấu {}
+
+* render(): render jsx lên trang web
+
+* State {} : quản lý các data ảnh hưởng đến việc render lại layout , chỉ được update thông qua setState ( state thay đổi thì layout thay đổi)
+
+* this.setState : update state / trigger re-render
+
+* key props (render with map) : dùng id ko nên dùng index / liên quan đến perfomance của trang web
+
+* Virtual dom ~ dom ảo (so sánh giữa dom ảo và dom thật (real dom vs virtual dom))
+
+* Props : tương tác giữa 2 component cha / con ( truyền data từ cha xuống con, con sẽ trigger function của cha )
+
+* this.props là thuộc tính có sẵn của class component dùng để nhận giá trị từ nơi sử dụng thẻ component này (component cha truyền xuống component con)
+
+// prop và state : giống và khác
+
++ Giống nhau : đều là thuộc tính có sẵn của component , đều để binding lên giao diện 
+
++ Khác nhau 
+
+    - State => thì có thể setState được 
+    - Props => thì không thể được (read-only)
+
+* Props drilling in react 
+* state ở đâu setState ở đó 
+
+* difference between state and props 
+
+* Find : ctrl + shift + f
+
+
+// Các bước giải quyết trong React
+* B1: xây dựng giao diện hoàn chỉnh
+* B2: Xác định state là gì (nên đặt state ở component nào có thể chứa state và setState )
+* B3: binding state lên giao diện 
+* B4: mới đi xử lý sự kiện => setState 
